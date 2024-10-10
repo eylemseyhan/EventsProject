@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -11,15 +15,16 @@
     <title>Dorne - Directory &amp; Listing Template</title>
 
     <!-- Favicon -->
-    <link rel="icon" href="img/core-img/favicon.ico">
+    <link rel="icon" href="~/dorne-master/img/core-img/favicon.ico">
 
     <!-- Core Stylesheet -->
-    <link href="style.css" rel="stylesheet">
+    <link href="~/dorne-master/style.css" rel="stylesheet">
 
     <!-- Responsive CSS -->
-    <link href="css/responsive/responsive.css" rel="stylesheet">
+    <link href="~/dorne-master/css/responsive/responsive.css" rel="stylesheet">
 
 </head>
+
 
 <body>
     <!-- Preloader -->
@@ -50,7 +55,7 @@
             <div class="row h-100">
                 <div class="col-12 h-100">
                     <nav class="h-100 navbar navbar-expand-lg">
-                        <a class="navbar-brand" href="index.html"><img src="img/core-img/logo.png" alt=""></a>
+                        <a class="navbar-brand" href="index.html"><img src="~/dorne-master/img/core-img/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#dorneNav" aria-controls="dorneNav" aria-expanded="false" aria-label="Toggle navigation"><span class="fa fa-bars"></span></button>
                         <!-- Nav -->
                         <div class="collapse navbar-collapse" id="dorneNav">
@@ -102,7 +107,8 @@
     </header>
     <!-- ***** Header Area End ***** -->
     <!-- ***** Welcome Area Start ***** -->
-    <section class="dorne-welcome-area bg-img bg-overlay" style="background-image: url(img/bg-img/hero-1.jpg);">
+    <section class="dorne-welcome-area bg-img bg-overlay" style="background-image: url('/dorne-master/img/bg-img/hero-1.jpg');
+">
         <div class="container h-100">
             <div class="row h-100 align-items-center justify-content-center">
                 <div class="col-12 col-md-10">
@@ -203,7 +209,7 @@
                             <div class="col-12 col-sm-6 col-md">
                                 <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.2s">
                                     <div class="catagory-content">
-                                        <img src="img/core-img/icon-1.png" alt="">
+                                        <img src="~/dorne-master/img/core-img/icon-1.png" alt="">
                                         <a href="#">
                                             <h6>Hotels</h6>
                                         </a>
@@ -214,7 +220,7 @@
                             <div class="col-12 col-sm-6 col-md">
                                 <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.4s">
                                     <div class="catagory-content">
-                                        <img src="img/core-img/icon-2.png" alt="">
+                                        <img src="~/dorne-master/img/core-img/icon-2.png" alt="">
                                         <a href="#">
                                             <h6>Restaurants</h6>
                                         </a>
@@ -225,7 +231,7 @@
                             <div class="col-12 col-sm-6 col-md">
                                 <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.6s">
                                     <div class="catagory-content">
-                                        <img src="img/core-img/icon-3.png" alt="">
+                                        <img src="~/dorne-master/img/core-img/icon-3.png" alt="">
                                         <a href="#">
                                             <h6>Shopping</h6>
                                         </a>
@@ -236,7 +242,7 @@
                             <div class="col-12 col-sm-6 col-md">
                                 <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="0.8s">
                                     <div class="catagory-content">
-                                        <img src="img/core-img/icon-4.png" alt="">
+                                        <img src="~/dorne-master/img/core-img/icon-4.png" alt="">
                                         <a href="#">
                                             <h6>Beauty &amp; Spa</h6>
                                         </a>
@@ -247,7 +253,7 @@
                             <div class="col-12 col-md">
                                 <div class="single-catagory-area wow fadeInUpBig" data-wow-delay="1s">
                                     <div class="catagory-content">
-                                        <img src="img/core-img/icon-5.png" alt="">
+                                        <img src="~/dorne-master/img/core-img/icon-5.png" alt="">
                                         <a href="#">
                                             <h6>Cinema</h6>
                                         </a>
@@ -291,7 +297,7 @@
             <div class="row">
                 <div class="col-12 col-lg-6">
                     <div class="single-editors-pick-area wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="img/bg-img/editor-1.jpg" alt="">
+                        <img src="~/dorne-master/img/bg-img/editor-1.jpg" alt="">
                         <div class="editors-pick-info">
                             <div class="places-total-destinations d-flex">
                                 <a href="#">New York</a>
@@ -305,7 +311,7 @@
                 </div>
                 <div class="col-12 col-lg-6">
                     <div class="single-editors-pick-area wow fadeInUp" data-wow-delay="0.4s">
-                        <img src="img/bg-img/editor-2.jpg" alt="">
+                        <img src="~/dorne-master/img/bg-img/editor-2.jpg" alt="">
                         <div class="editors-pick-info">
                             <div class="places-total-destinations d-flex">
                                 <a href="#">Barcelona</a>
@@ -317,7 +323,7 @@
                         </div>
                     </div>
                     <div class="single-editors-pick-area wow fadeInUp" data-wow-delay="0.6s">
-                        <img src="img/bg-img/editor-3.jpg" alt="">
+                        <img src="~/dorne-master/img/bg-img/editor-3.jpg" alt="">
                         <div class="editors-pick-info">
                             <div class="places-total-destinations d-flex">
                                 <a href="#">paris</a>
@@ -351,7 +357,7 @@
                     <div class="features-slides owl-carousel">
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-1.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-1.jpg" alt="">
                             <!-- Price -->
                             <div class="price-start">
                                 <p>FROM $59/night</p>
@@ -368,7 +374,7 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-2.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-2.jpg" alt="">
                             <!-- Price -->
                             <div class="price-start">
                                 <p>FROM $59/night</p>
@@ -385,7 +391,7 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-3.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-3.jpg" alt="">
                             <!-- Price -->
                             <div class="price-start">
                                 <p>FROM $59/night</p>
@@ -402,7 +408,7 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-4.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-4.jpg" alt="">
                             <!-- Price -->
                             <div class="price-start">
                                 <p>FROM $59/night</p>
@@ -419,7 +425,7 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-5.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-5.jpg" alt="">
                             <!-- Price -->
                             <div class="price-start">
                                 <p>FROM $59/night</p>
@@ -458,11 +464,11 @@
                     <div class="features-slides owl-carousel">
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-6.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-6.jpg" alt="">
                             <!-- Rating & Map Area -->
                             <div class="ratings-map-area d-flex">
                                 <a href="#">8.5</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                             <div class="feature-content d-flex align-items-center justify-content-between">
                                 <div class="feature-title">
@@ -476,11 +482,11 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-7.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-7.jpg" alt="">
                             <!-- Rating & Map Area -->
                             <div class="ratings-map-area d-flex">
                                 <a href="#">9.5</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                             <div class="feature-content d-flex align-items-center justify-content-between">
                                 <div class="feature-title">
@@ -494,11 +500,11 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-8.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-8.jpg" alt="">
                             <!-- Rating & Map Area -->
                             <div class="ratings-map-area d-flex">
                                 <a href="#">8.2</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                             <div class="feature-content d-flex align-items-center justify-content-between">
                                 <div class="feature-title">
@@ -512,11 +518,11 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-9.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-9.jpg" alt="">
                             <!-- Rating & Map Area -->
                             <div class="ratings-map-area d-flex">
                                 <a href="#">8.7</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                             <div class="feature-content d-flex align-items-center justify-content-between">
                                 <div class="feature-title">
@@ -530,11 +536,11 @@
                         </div>
                         <!-- Single Features Area -->
                         <div class="single-features-area">
-                            <img src="img/bg-img/feature-10.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/feature-10.jpg" alt="">
                             <!-- Rating & Map Area -->
                             <div class="ratings-map-area d-flex">
                                 <a href="#">9.8</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                             <div class="feature-content d-flex align-items-center justify-content-between">
                                 <div class="feature-title">
@@ -569,10 +575,10 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-feature-events-area d-sm-flex align-items-center wow fadeInUpBig" data-wow-delay="0.2s">
                         <div class="feature-events-thumb">
-                            <img src="img/bg-img/event-1.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/event-1.jpg" alt="">
                             <div class="date-map-area d-flex">
                                 <a href="#">26 Nov</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                         </div>
                         <div class="feature-events-content">
@@ -588,10 +594,10 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-feature-events-area d-sm-flex align-items-center wow fadeInUpBig" data-wow-delay="0.3s">
                         <div class="feature-events-thumb">
-                            <img src="img/bg-img/event-2.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/event-2.jpg" alt="">
                             <div class="date-map-area d-flex">
                                 <a href="#">26 Nov</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                         </div>
                         <div class="feature-events-content">
@@ -607,10 +613,10 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-feature-events-area d-sm-flex align-items-center wow fadeInUpBig" data-wow-delay="0.4s">
                         <div class="feature-events-thumb">
-                            <img src="img/bg-img/event-3.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/event-3.jpg" alt="">
                             <div class="date-map-area d-flex">
                                 <a href="#">26 Nov</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                         </div>
                         <div class="feature-events-content">
@@ -626,10 +632,10 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-feature-events-area d-sm-flex align-items-center wow fadeInUpBig" data-wow-delay="0.5s">
                         <div class="feature-events-thumb">
-                            <img src="img/bg-img/event-4.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/event-4.jpg" alt="">
                             <div class="date-map-area d-flex">
                                 <a href="#">26 Nov</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                         </div>
                         <div class="feature-events-content">
@@ -645,10 +651,10 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-feature-events-area d-sm-flex align-items-center wow fadeInUpBig" data-wow-delay="0.6s">
                         <div class="feature-events-thumb">
-                            <img src="img/bg-img/event-5.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/event-5.jpg" alt="">
                             <div class="date-map-area d-flex">
                                 <a href="#">26 Nov</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                         </div>
                         <div class="feature-events-content">
@@ -664,10 +670,10 @@
                 <div class="col-12 col-lg-6">
                     <div class="single-feature-events-area d-sm-flex align-items-center wow fadeInUpBig" data-wow-delay="0.7s">
                         <div class="feature-events-thumb">
-                            <img src="img/bg-img/event-6.jpg" alt="">
+                            <img src="~/dorne-master/img/bg-img/event-6.jpg" alt="">
                             <div class="date-map-area d-flex">
                                 <a href="#">26 Nov</a>
-                                <a href="#"><img src="img/core-img/map.png" alt=""></a>
+                                <a href="#"><img src="~/dorne-master/img/core-img/map.png" alt=""></a>
                             </div>
                         </div>
                         <div class="feature-events-content">
@@ -690,11 +696,11 @@
             <div class="row">
                 <div class="col-12">
                     <div class="clients-logo d-md-flex align-items-center justify-content-around">
-                        <img src="img/clients-img/1.png" alt="">
-                        <img src="img/clients-img/2.png" alt="">
-                        <img src="img/clients-img/3.png" alt="">
-                        <img src="img/clients-img/4.png" alt="">
-                        <img src="img/clients-img/5.png" alt="">
+                        <img src="~/dorne-master/img/clients-img/1.png" alt="">
+                        <img src="~/dorne-master/img/clients-img/2.png" alt="">
+                        <img src="~/dorne-master/img/clients-img/3.png" alt="">
+                        <img src="~/dorne-master/img/clients-img/4.png" alt="">
+                        <img src="~/dorne-master/img/clients-img/5.png" alt="">
                     </div>
                 </div>
             </div>
@@ -726,15 +732,23 @@
     </footer>
     <!-- ****** Footer Area End ****** -->
     <!-- jQuery-2.2.4 js -->
-    <script src="js/jquery/jquery-2.2.4.min.js"></script>
+    <script src="~/dorne-master/js/jquery/jquery-2.2.4.min.js"></script>
     <!-- Popper js -->
-    <script src="js/bootstrap/popper.min.js"></script>
+    <script src="~/dorne-master/js/bootstrap/popper.min.js"></script>
     <!-- Bootstrap-4 js -->
-    <script src="js/bootstrap/bootstrap.min.js"></script>
+    <script src="~/dorne-master/js/bootstrap/bootstrap.min.js"></script>
     <!-- All Plugins js -->
-    <script src="js/others/plugins.js"></script>
+    <script src="~/dorne-master/js/others/plugins.js"></script>
     <!-- Active JS -->
-    <script src="js/active.js"></script>
+    <script src="~/dorne-master/js/active.js"></script>
+    <script>
+        window.addEventListener('load', function () {
+            setTimeout(function () {
+                document.getElementById('preloader').style.display = 'none'; // Preloader'ı gizle
+            }, 5000); // 5 saniye bekle
+        });
+    </script>
+
 </body>
 
 </html>
