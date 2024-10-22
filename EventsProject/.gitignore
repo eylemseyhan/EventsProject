@@ -1,7 +1,7 @@
 # Visual Studio geçici dosyaları
 .vs/
-obj/
-bin/
+/obj/
+/bin/
 *.vsidx
 *.suo
 *.user
