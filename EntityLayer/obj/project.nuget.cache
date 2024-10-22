@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "C4gQkcmvU1U=",
+  "dgSpecHash": "OHL486FpYrQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\ipekn\\Desktop\\Eventsproject\\EntityLayer\\EntityLayer.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ipekn\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.3\\microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512"
+  ],
   "logs": []
 }
