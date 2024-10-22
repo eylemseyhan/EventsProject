@@ -26,6 +26,46 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutAllEventsComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0QWxsRXZlbnRzQ29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutArtistComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0QXJ0aXN0Q29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutCategoryComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0Q2F0ZWdvcnlDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutFooterComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0Rm9vdGVyQ29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutHeadComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0SGVhZENvbXBvbmVudC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutNavbarComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0TmF2YmFyQ29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutPopulerEventsComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0UG9wdWxlckV2ZW50c0NvbXBvbmVudC9EZWZhdWx0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutScriptComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0U2NyaXB0Q29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutSearchComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0U2VhcmNoQ29tcG9uZW50L0RlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Components/_UILayoutUpComingEventsComponent/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0NvbXBvbmVudHMvX1VJTGF5b3V0VXBDb21pbmdFdmVudHNDb21wb25lbnQvRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/ebrarsedagunduz/RiderProjects/EventsProject/EventsProject/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,4 +1,4 @@
-# Visual Studio geçici dosyalarý
+# Visual Studio geÃ§ici dosyalarÄ±
 .vs/
 obj/
 bin/
@@ -6,3 +6,4 @@ bin/
 *.suo
 *.user
 *.cache
+.DS_Store
