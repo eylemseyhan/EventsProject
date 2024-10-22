@@ -8,13 +8,18 @@
     ".NETCoreApp,Version=v8.0": {
       "DataAccessLayer/1.0.0": {
         "dependencies": {
-          "EntityLayer": "1.0.0"
+          "EntityLayer": "1.0.0",
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.3"
         },
         "runtime": {
           "DataAccessLayer.dll": {}
         }
       },
+      "Microsoft.CodeAnalysis.Analyzers/3.3.3": {},
       "EntityLayer/1.0.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.3"
+        },
         "runtime": {
           "EntityLayer.dll": {
             "assemblyVersion": "1.0.0",
@@ -29,6 +34,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Microsoft.CodeAnalysis.Analyzers/3.3.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-j/rOZtLMVJjrfLRlAMckJLPW/1rze9MT1yfWqSIbUPGRu1m1P0fuo9PmqapwsmePfGB5PJrudQLvmUOAMF0DqQ==",
+      "path": "microsoft.codeanalysis.analyzers/3.3.3",
+      "hashPath": "microsoft.codeanalysis.analyzers.3.3.3.nupkg.sha512"
     },
     "EntityLayer/1.0.0": {
       "type": "project",

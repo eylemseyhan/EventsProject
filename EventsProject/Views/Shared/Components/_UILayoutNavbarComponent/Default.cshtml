@@ -26,49 +26,95 @@
                     <!-- Nav -->
                     <div class="collapse navbar-collapse" id="dorneNav">
                         <ul class="navbar-nav mr-auto" id="dorneMenu">
-                            <li class="nav-item active">
-                                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                            </li>
                             <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Explore <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Ana Sayfa <i class="fa fa-angle-down" aria-hidden="true"></i></a>
                                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="index.html">Home</a>
-                                    <a class="dropdown-item" href="explore.html">Explore</a>
-                                    <a class="dropdown-item" href="listing.html">Listing</a>
-                                    <a class="dropdown-item" href="single-listing.html">Single Listing</a>
-                                    <a class="dropdown-item" href="contact.html">Contact</a>
+                                    <a class="dropdown-item" href="index.html">Konser</a>
+                                    <a class="dropdown-item" href="explore.html">Tiyatro</a>
+                                    <a class="dropdown-item" href="listing.html">Stand-Up</a>
+                                    <a class="dropdown-item" href="single-listing.html">Çocuk</a>
+                                    <a class="dropdown-item" href="contact.html">Festival</a>
                                 </div>
                             </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Listings <i class="fa fa-angle-down" aria-hidden="true"></i></a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
-                                    <a class="dropdown-item" href="index.html">Home</a>
-                                    <a class="dropdown-item" href="explore.html">Explore</a>
-                                    <a class="dropdown-item" href="listing.html">Listing</a>
-                                    <a class="dropdown-item" href="single-listing.html">Single Listing</a>
-                                    <a class="dropdown-item" href="contact.html">Contact</a>
-                                </div>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="index.html">Konser <span class="sr-only">(current)</span></a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Tiyatro</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
+                                <a class="nav-link" href="contact.html">Stand-Up</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Çocuk Aktiviteleri</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Festival</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">İletişim</a>
                             </li>
                         </ul>
                         <!-- Search btn -->
                         <div class="dorne-search-btn">
-                            <a id="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i> Search</a>
+                            <a id="search-btn" href="#"><i class="fa fa-search" aria-hidden="true"></i>Ara </a>
                         </div>
                         <!-- Signin btn -->
-                        <div class="dorne-signin-btn">
+                        <!--  <div class="dorne-signin-btn">
                             <a href="#">Sign in  or Register</a>
-                        </div>
+                        </div> -->
                         <!-- Add listings btn -->
                         <div class="dorne-add-listings-btn">
-                            <a href="#" class="btn dorne-btn">+ Add Listings</a>
+                            <a href="#" class="user-icon">
+                                <img src="~/dorne-master/img/core-img/signup.png" alt="User Icon" style="width: 24px; height: 24px;">
+                            </a>
                         </div>
+
                     </div>
                 </nav>
             </div>
         </div>
     </div>
 </header>
-<!-- ***** Header Area End ***** -->
+<style>
+    .user-icon {
+        display: inline-flex; /* Flexbox ile içeriği ortalamak için */
+        justify-content: center; /* İçerikleri yatayda ortala */
+        align-items: center; /* İçerikleri dikeyde ortala */
+        width: 70px; /* Yuvarlak butonun yeni genişliği */
+        height: 70px; /* Yuvarlak butonun yeni yüksekliği */
+        background: transparent; /* Arka planı transparan yap */
+        border: none; /* Kenarlıkları kaldır */
+        outline: none; /* Outline'ı kaldır */
+        transition: transform 0.3s; /* Hover efektinde ölçek geçişi için */
+        cursor: pointer; /* Fare ile üzerine gelindiğinde el simgesi */
+        padding: 0; /* İçerik etrafındaki boşluğu kaldır */
+        margin: 0; /* Dışarıdaki boşluğu kaldır */
+    }
+
+    .user-icon:hover {
+        transform: scale(1.2); /* Üzerine gelince büyüme efekti (ikonu %20 büyüt) */
+    }
+
+    .user-icon img {
+        width: 80%; /* İkonun genişliği, butonun genişliğine göre ayarlanacak */
+        height: 80%; /* İkonun yüksekliği, butonun yüksekliğine göre ayarlanacak */
+        border-radius: 50%; /* İkonu yuvarlak yapmak için */
+    }
+
+    .user-icon:focus {
+        outline: none; /* Outline'ı kaldır */
+        box-shadow: none; /* Varsayılan gölgeyi kaldır */
+    }
+
+    .user-icon:active {
+        outline: none; /* Aktif durumdaki outline'ı kaldır */
+    }
+
+</style>
+
+
+
+
+

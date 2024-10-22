@@ -4,8 +4,8 @@
             <div class="col-12">
                 <div class="section-heading text-center">
                     <span></span>
-                    <h4>Featured events</h4>
-                    <p>Editor’s pick</p>
+                    <h4>Tüm Etkinlikler</h4>
+
                 </div>
             </div>
         </div>
@@ -124,7 +124,62 @@
                         <a href="#">+</a>
                     </div>
                 </div>
+
             </div>
         </div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="more-events">
+                    <a href="#" class="more-events-btn">Tümünü Görer</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 </section>
+<style>
+    .more-events {
+        margin-top: 50px;
+    }
+
+    .more-events-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 18px;
+        color: white; /* Yazı rengi beyaz */
+        background: none; /* Arka planı kaldır */
+        border: none; /* Kenarları kaldır */
+        cursor: pointer; /* Fare ile üzerine gelindiğinde el simgesi */
+        position: relative; /* Pozisyon ayarı yap */
+        transition: color 0.3s;
+    }
+
+        .more-events-btn::after {
+            content: "▼"; /* Ok simgesi */
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%); /* Ortala */
+            top: 100%; /* Yazının altına yerleştir */
+            opacity: 0; /* Başlangıçta görünmez */
+            transition: opacity 0.3s; /* Geçiş efekti */
+        }
+
+        .more-events-btn:hover {
+            color: #007bff; /* Üzerine gelince renk değişimi */
+        }
+
+            .more-events-btn:hover::after {
+                opacity: 1; /* Hover sırasında görünür hale getir */
+            }
+
+            .more-events-btn:hover::before {
+                content: ""; /* Alt çizgi ekle */
+                display: block;
+                width: 100%;
+                height: 2px; /* Çizgi kalınlığı */
+                background-color: white; /* Çizgi rengi */
+                position: absolute;
+                bottom: 0; /* Çizgiyi yazının altına yerleştir */
+                left: 0;
+            }
+</style>
